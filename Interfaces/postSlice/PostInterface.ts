@@ -1,11 +1,11 @@
 interface PostState {
-  posts: Post[];
+  posts: PostI[];
   totalPosts: number;
 }
 
-interface Post {
+interface PostI {
   id: number;
   title: string;
   description: string;
 }
-export type { PostState, Post };
+export type { PostState, PostI };

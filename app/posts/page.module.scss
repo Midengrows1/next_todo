@@ -1,0 +1,9 @@
+.posts {
+  @apply min-h-screen;
+  &__container {
+    @apply container bg-gray-700 w-3/12 p-4  h-max  m-auto flex flex-col justify-center gap-4;
+    &_title {
+      @apply text-3xl italic;
+    }
+  }
+}

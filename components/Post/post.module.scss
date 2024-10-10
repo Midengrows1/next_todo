@@ -1,0 +1,15 @@
+.post {
+  @apply w-full min-h-11 h-[100%]  shadow-md bg-violet-500 rounded-md p-4;
+  &__btns {
+    @apply flex gap-4 mt-3;
+    & > * {
+      @apply bg-red-400 p-2 min-w-24 w-max rounded-md;
+    }
+    &_delete {
+      @apply bg-red-700;
+    }
+    &_edit {
+      @apply bg-blue-400;
+    }
+  }
+}

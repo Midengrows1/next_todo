@@ -1,0 +1,13 @@
+.postcreation {
+  @apply flex flex-col gap-4;
+  & > * {
+    @apply rounded-md p-1 outline-2 outline-purple-600;
+  }
+  input,
+  textarea {
+    @apply text-black;
+  }
+  &_submit {
+    @apply bg-purple-600 w-full h-max p-2 font-bold text-xl;
+  }
+}
